@@ -88,8 +88,7 @@ section .images {
 }
 
 section .images .image {
-  width: 40%;
-  height: 100%;
+  flex-grow: 1;
   background-size: cover;
   background-position: center;
 }
